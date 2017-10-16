@@ -13,5 +13,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         LogUtils.d("This is test debug message");
+        com.example.android.errorlevel.LogUtils.e("This is test error message");
     }
 }
