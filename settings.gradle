@@ -1,1 +1,1 @@
-include ':app', ':debug-level'
+include ':app', ':debug-level', ':error-level'
